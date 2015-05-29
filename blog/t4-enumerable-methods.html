@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+  <title>Emaperable</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="blog-stylesheet.css">
+   <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+</head>
+
+<main>
+  <h1>Emaperable</h1>
+  <h2>Further research of the #map enumerable! </h2>
+  <h4>May 29, 2015</h4>
+
+  <section>
+    <p>An enumberable is a "module", which is fancy for a "a bunch of methods". Enumberables can be used to sum up methods and shorten code as long as the class using the enumberable has its own #each method, such as  a hash or array.
+    </p>
+    <p> #map is handy the enumberable I will be focusing on in this blog. #map is very similar to #collect. It will interate your block on every item in your object, whether it be an array or hash. It will then keep each item but change it and then return the results. But, it will not modify the original object unless you make it destructive.
+    </p>
+    <p>
+        Below is a simple example that helped solidify my understanding:
+    [1,2,3].map {|x| x + 1 }
+    #=> [2,3,4]
+    </p>
+
+      <!-- copy and paste as many sections as you want to add paragraphs -->
+  </section>
+</main>
+
