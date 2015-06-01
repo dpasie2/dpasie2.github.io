@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+  <title>Glasses Classes</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="blog-stylesheet.css">
+   <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+</head>
+
+<main>
+  <h1>Glasses Classes</h1>
+  <h2>My real world example of Ruby Classes.</h2>
+  <h4>May 31, 2015</h4>
+
+  <section>
+    <p>Week 5 of Phase 0 at DBC has mostly consisted on classes. A class is said to be a blueprint of an object. You can assign methods to a class and then any object that falls within that class with be endowed with the corresponding methods. Therefore, a class allows you to bundle methods so that you can quickly make objects that behave similarly. This will save you a lot of time and typing.
+    </p>
+    <p>In this blog, I will model a real world object, glasses, as a class. When modeling classes we want to consider two things: what the object knows, which are known as instance variables, and, what the object does, which are known as instance methods. Instance variables represent the object's many states. In the example of glasses, some instance methods would include lens, frame, etc. Some instance methods would include wear, lose or sit on. Below is how the class code would look:
+    </p>
+    <p><div>
+class Glasses  <br>
+  def initialize(lens, frame) <br>
+    @lens = lens <br>
+    @frame = frame <br>
+  end <br>
+<br>
+  def wear <br>
+    puts 'I am on your face!' <br>
+  end <br>
+
+  def lose <br>
+    puts "I miss your face!" <br>
+  end <br>
+
+  def sit_on <br>
+    puts "::CRUNCH!!::" <br>
+    end <br>
+end <br>
+</div>
+    </p>
+
+      <!-- copy and paste as many sections as you want to add paragraphs -->
+  </section>
+</main>
+
