@@ -41,3 +41,8 @@ a:hover {
 li {
   margin-left:45%;
 }
+
+div id="paragraph" {
+  margin-left:25%;
+  text-align: center;
+}
