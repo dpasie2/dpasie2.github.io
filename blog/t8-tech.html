@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+  <title>Regular Expressions</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="blog-stylesheet.css">
+   <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+</head>
+
+<main>
+  <h1>RegEx!</h1>
+  <h2>A Closer Look at Regular Expressions!</h2>
+  <h4>June 21, 2015</h4>
+
+  <section>
+    <p>So far, throughout Phase 0, we have been told to not use regular expressions. But the more I looked at outside sources and additional solutions, the more I came across this odd looking syntax. Within this blog, I will explain my basic understanding of regular expressions, or regex, gained through some brief research.
+    </p>
+    <p>Regular expressions are search patterns that describe some amount of text. We have used the * wildcard notation before. Regex takes that same idea but goes much more in depth with it. Using regex, you can search for many more specifications, such as a email address.
+    </p>
+    <p>The symbols in a regular expression represent certain search perimeters. We will look at an example to help clarify. Like I mentioned above, this is the regex for an email address: <br>
+      \b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}\b <br>
+
+      Upon first look, this may look like an error or just a random arrangement of characters, but it actually is quite readable once it's broken down. If you look closely you'll see a series of letters (A-Z), digits(0-9), dots, underscores, percentage signs and hyphens, followed by an at sign, followed by another series of letters(A-Z), digits(0-9) and hyphens, finally followed by a single dot and between two and four letters. If you haven't already noticed, this is the skeleton of an email address. All email addresses will follow this format. Therefore, if your program needs to check if a valid email address is inserted, you can use this regex in your validator as opposed to typing out numerous lines of code. NIFTY!
+    </p>
+
+      <!-- copy and paste as many sections as you want to add paragraphs -->
+  </section>
+</main>
+
