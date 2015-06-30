@@ -2,6 +2,15 @@ body {
   background-color: #27FEFF;
 }
 
+body {
+  background-image:
+    radial-gradient(
+      circle,
+      white,
+      #27FEFF
+    );
+}
+
 img {
   height:50px;
   width:50px;
@@ -47,6 +56,17 @@ div#"paragraph" {
   text-align: center;
 }
 
-div#"title" {
-  font: bold;
+#title {
+  font-weight: bold;
+}
+
+section {
+  border-style: solid;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px
+}
 }

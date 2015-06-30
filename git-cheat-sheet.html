@@ -15,28 +15,33 @@
       <a href="https://www.facebook.com/davinapasiewicz"><img src="http://upload.wikimedia.org/wikipedia/commons/7/7a/B&amp;W_Facebook_icon.png" alt="Facebook"></a>
   </div>
   <div id="content">
-    <h1>Git Cheat Sheet!</h1>
-    <p>A handy guide on using Git!</p>
+    <h1>Github Cheat Sheet!</h1>
+    <p>Starting Phase 0 soon? A handy guide on using Github!</p>
   </div>
-   <div id="paragraph">Git tracks different changes on your computer. Github is on the internet. Forking a repository means you are copying it from one github on the internet to your github on the internet. Cloning means you are taking it from github and downloading it onto your computer.  The difference between cloning and downloading is if you clone it then your Git on your computer will track changes if you download it then it won't. <br><br>
 
-<div id="title">How to Fork from Git</div>
+  <section>
+   <div id="paragraph">Git is a local program that tracks different changes on your computer. Github is remote and is stored on the internet. A real world comparison would be Git as a flash drive and Github as dropbox. Throughout your time with Dev Bootcamp you will be become very familiar with the two. Below are some of the common processes that you will have to execute week by week. <br><br>
+
+Forking a repository means you are copying it from one Github repository(often times Dev Bootcamp's) to your Github on the internet.
+<div id="title">How to Fork from Github</div>
 Step 1. Click the fork button on the top right of the repo page that you want to fork.  This makes a copy of it on your github.<br>
 Step 2. If you want others to comment on your repo click "enable issues" on the settings.<br><br>
 
-<div id="title">How to Clone from Git</div>
+Cloning means you are taking the copied repository, or repo, from Github and downloading it onto your computer.
+<div id="title">How to Clone from Github</div>
 Step 1. On your github look for the ssh link on the right middle of the page. Copy that url of your repo.<br>
 Step 2. Then in your terminal type git clone http://.........<br><br>
 
-
-<div id="title">How to Push to Git</div>
+Pushing to Github means that you are taking any changes you have made locally on your computer and are pushing, or saving, those changes to the version you have on the internet.
+<div id="title">How to Push to Github</div>
 Step 1. Make sure you are on the Master Branch.<br>
 Step 2. Make sure you're in the folder directory that you want to be in. <br>
 Step 3. Git Add . (or just add the files that you want to add) <br>
 Step 4. Git Commit -m "write a sentence about what you did" <br>
 Step 5. Git Push Origin Master<br><br>
 
-<div id="title">How to Fetch Changes from Git</div>
+Fetching changes means that you are taking the changes made to the version on the internet and are pulling them down to your computer. Merging takes those fetched changes and combines them with the changes you have already made on your computer. Merging will not override your changes.
+<div id="title">How to Fetch & Merge Changes from Github</div>
 Step 1. Check your remotes (Git remote-v)<br>
 Step 2. Make sure your upstream is linked to the repo that you want to pull from.<br>
 Step 3. If it is linked Skip to step 5 if not continue to step 4.<br>
@@ -45,6 +50,6 @@ git remote add upstream http://devbootcamp.com/phase-0-unit-1.git<br>
 Step 5. Type git fetch upstream<br>
 Step 6. git merge upstream/master<br>
 Step 7. git commit -m "write a sentence about what you did"<br>
-Step 8. git push origin master  </div>
+Step 8. git push origin master  </div></section>
   </body>
 </html>
