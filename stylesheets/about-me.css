@@ -1,0 +1,129 @@
+body {
+  background-color: #27FEFF;
+}
+
+body {
+  background-image:
+    radial-gradient(
+      circle,
+      white,
+      #27FEFF
+    );
+}
+
+img {
+  height:50px;
+  width:50px;
+  margin-left:95%;
+  position:relative;
+  top:0;
+}
+
+h1 {
+  text-align:center;
+  font-family: 'Lobster', cursive;
+}
+
+div#bloglinks.inline {
+display:inline;
+}
+
+p {
+  text-align:center;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+a {
+  text-align:center;
+  text-decoration:none;
+}
+
+a:hover {
+  text-decoration:underline overline;
+}
+
+.sociallinks a {
+  display:list-item;
+  float:right;
+}
+
+li {
+  margin-left:45%;
+}
+
+#paragraph {
+  margin-left:15%;
+  margin-right:15%;
+  text-align: center;
+}
+
+section {
+  border-top: 3px;
+  border-left: 3px;
+  border-right: 3px;
+  border-bottom: 3px;
+}
+
+/*.container{*/
+
+  /* How pronounced should the 3D effects be */
+  /*perspective: 800px;
+  -webkit-perspective: 800px;*/
+
+  /*background: radial-gradient(white, black);
+  width:400px;
+  height:400px;
+  margin:0 auto;
+  border-radius:10px;
+  position:relative;*/
+/*}*/
+
+.picture-front,
+.picture-back{
+
+  /* Enable 3D transforms */
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+
+  /* We are using two separate divs for the front and back of the
+     phone. This will hide the divs when they are flipped, so that the
+     opposite side can be seen:  */
+
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+
+  width:700px;
+  height:833px;
+
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin:0px 0 0 -320px;
+
+  background:url(http://i288.photobucket.com/albums/ll186/dpasiewi4229/7dc3e415-97ef-4638-a250-ac2ffeb1eb1c_zpssv6yttol.jpg) no-repeat left center;
+
+  /* Animate the transitions */
+  transition:0.9s;
+}
+
+.picture-back{
+
+  /* The back side is flipped 180 deg by default */
+  transform:rotateY(180deg);
+  -webkit-transform:rotateY(180deg);
+
+  background-position:right center;
+}
+
+.container:hover .picture-front{
+  /* When the container is hovered, flip the front side and hide it .. */
+  transform:rotateY(180deg);
+  -webkit-transform:rotateY(180deg);
+}
+
+.container:hover .picture-back{
+  /* .. at the same time flip the back side into visibility */
+  transform:rotateY(360deg);
+  -webkit-transform:rotateY(360deg);
+}
+
