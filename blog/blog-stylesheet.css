@@ -1,5 +1,14 @@
-* {
+body {
   background-color: #27FEFF;
+}
+
+body {
+  background-image:
+    radial-gradient(
+      circle,
+      white,
+      #27FEFF
+    );
 }
 
 h1 {
@@ -19,4 +28,12 @@ h4 {
 
 p {
   text-align: center;
+}
+
+section {
+  border-style: solid;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
 }

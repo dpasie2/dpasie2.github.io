@@ -2,6 +2,15 @@ body {
   background-color: #27FEFF;
 }
 
+body {
+  background-image:
+    radial-gradient(
+      circle,
+      white,
+      #27FEFF
+    );
+}
+
 img {
   height:50px;
   width:50px;

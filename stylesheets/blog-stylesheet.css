@@ -1,5 +1,14 @@
-* {
+body {
   background-color: #27FEFF;
+}
+
+body {
+  background-image:
+    radial-gradient(
+      circle,
+      white,
+      #27FEFF
+    );
 }
 
 h1 {
